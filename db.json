@@ -1,45 +1,25 @@
 {
   "contato": [
     {
-      "id": 1,
-      "nome": "Olivia",
-      "sobrenome": "Barros",
-      "cell": "85 998755652",
-      "cidade": "Fortaleza"
-    },
-    {
-      "id": 1,
-      "nome": "Olivia",
-      "sobrenome": "Barros",
-      "cell": "85 998755652",
-      "cidade": "Fortaleza"
-    },
-    {
-      "id": 2
-    },
-    {
+      "nome": "Lucas",
+      "sobrenome": "Carlos",
+      "cell": "85 9 91927364",
+      "cidade": "Fortaleza",
       "id": 3
     },
     {
-      "nome": "Carlos",
-      "sobrenome": "Eduardo",
-      "cell": "85 9 91927364",
+      "nome": "erika ",
+      "sobrenome": "nunes",
+      "cell": "85 9 854545151",
       "cidade": "Fortaleza",
       "id": 4
     },
     {
-      "nome": "Moana",
-      "sobrenome": "Campos",
-      "cell": "85 9 91927364",
-      "cidade": "Fortaleza",
-      "id": 5
-    },
-    {
-      "nome": "Flavio",
-      "sobrenome": "Augusto ",
-      "cell": "11 978545632",
+      "nome": "Carlos",
+      "sobrenome": "Menezes",
+      "cell": "11 978545896",
       "cidade": "São Paulo",
-      "id": 6
+      "id": 5
     }
   ]
 }
