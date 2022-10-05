@@ -29,45 +29,47 @@
             <tbody id="listaDeContatos"></tbody>
         </table> 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Novo Contato</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <form id="formAdd" onsubmit="adicionarNovoContato()" class="form-control">
-                    <div class="modal-body">
-                        <div class="mb-3 row">
-                            <label for="nome" class="col-sm-3 col-form-label">Nome</label>
-                            <div class="col-sm-9">
-                              <input id="nome" class="form-control">
-                        </div>
-                        <div class="mb-3 row">
-                             <label for="sobrenome" class="col-sm-3 col-form-label">Sobrenome</label>
-                            <div class="col-sm-9">
-                                  <input id="sobrenome" class="form-control">
-                        </div>
-                        <div class="mb-3 row">
-                                <label for="cell" class="col-sm-3 col-form-label">Telefone/cell</label>
-                                <div class="col-sm-9">
-                                      <input id="cell" class="form-control">
-                        </div>
-                        <div class="mb-3 row">
-                                <label for="cidade" class="col-sm-3 col-form-label">Cidade</label>
-                                <div class="col-sm-9">
-                                      <input id="cidade" class="form-control">
-                        </div>    
-                    </div>
-                     </div>
-                     </form>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-          <button type="" class="btn btn-primary">Salvar</button>
-        </div>
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Novo Contato</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <form id="formAdd" onsubmit="adicionarNovoContato()" class="form-control">
+          <div class="modal-body">
+            <div class="mb-3 row">
+              <label for="nome" class="col-sm-3 col-form-label">Nome</label>
+              <div class="col-sm-9">
+                <input id="nome" class="form-control">
+              </div>
+            </div>    
+            <div class="mb-3 row">
+              <label for="sobrenome" class="col-sm-3 col-form-label">Sobrenome</label>
+              <div class="col-sm-9">
+                <input id="sobrenome" class="form-control">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="cell" class="col-sm-3 col-form-label">Telefone/cell</label>
+              <div class="col-sm-9">
+                <input id="cell" class="form-control">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="cidade" class="col-sm-3 col-form-label">Cidade</label>
+              <div class="col-sm-9">
+                <input id="cidade" class="form-control">
+              </div>    
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="" class="btn btn-primary">Salvar</button>
+          </div>
+                  </form>
+          </div>
       </div>
     </div>
-  </div>
-
 
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasEditar" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
